@@ -1,3 +1,6 @@
 # winhunt
-
-i have wrote this script while am studying for eCHTP, which will check for running process and check it whether is signed or not and network connections , check for parent process if its normal or not. and soon will update it with webshell detection 
+while am studying for elearnsecurity eCHTP , i wrote small tool to hunt for clues like:
+1. windows processs running without user which indicates(Process injected)
+2. windows process running with NT\System Authority and not in expected path and checks the parent process if its the expected or not.
+3. Windows Process Network Connections and Listening ports it will show high risks (powershell,notepad.exe,system processes)
+4. hunt for webshells or files which contains unsafe functions like(exec, fsockopen...etc)
